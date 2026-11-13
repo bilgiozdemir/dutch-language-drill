@@ -206,7 +206,9 @@ def main():
     collect(state)
     if mode != "collect":
         if state["chat_id"] is None:
-            print("No chat yet: open your bot in Telegram and send /start, then run again.")
+            me = api("getMe") if not DRY_RUN else {}
+            print(f"No chat yet. This token belongs to the bot @{me.get('username')}. "
+                  f"Open exactly that bot in Telegram, send /start, then run again.")
         else:
             {"lesson": lesson, "quiz": quiz, "weekly": weekly}[mode](state, words)
     save_state(state)
