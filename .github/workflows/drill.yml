@@ -1,0 +1,52 @@
+name: Dutch drill
+
+on:
+  schedule:            # times are UTC. Amsterdam = UTC+1 in winter, UTC+2 in summer
+    - cron: "23 6 * * *"     # morning words   (07:23 winter / 08:23 summer)
+    - cron: "23 17 * * *"    # evening quiz    (18:23 winter / 19:23 summer)
+    - cron: "23 9 * * 0"     # Sunday mini-test (10:23 winter / 11:23 summer)
+    - cron: "53 11,23 * * *" # just read answers
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What to run
+        type: choice
+        default: lesson
+        options: [lesson, quiz, weekly, collect]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dutch-drill
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pick mode
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            "23 6 * * *")  echo "mode=lesson"  >> "$GITHUB_OUTPUT" ;;
+            "23 17 * * *") echo "mode=quiz"    >> "$GITHUB_OUTPUT" ;;
+            "23 9 * * 0")  echo "mode=weekly"  >> "$GITHUB_OUTPUT" ;;
+            "")            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT" ;;
+            *)             echo "mode=collect" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Run drill
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python drill.py "${{ steps.mode.outputs.mode }}"
+      - name: Save progress
+        run: |
+          git config user.name "dutch-drill"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Update progress"
+          git push
