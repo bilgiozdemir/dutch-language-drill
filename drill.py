@@ -105,6 +105,11 @@ def collect(state):
         state["chat_id"] = int(env_chat)
     updates = api("getUpdates", offset=state["offset"], timeout=0,
                   allowed_updates=["message", "poll_answer"])
+    if not DRY_RUN:
+        wh = api("getWebhookInfo")
+        print(f"Telegram: {len(updates)} new update(s) {[k for u in updates for k in u if k != 'update_id']}, "
+              f"pending={wh.get('pending_update_count')}, webhook={'set' if wh.get('url') else 'none'}, "
+              f"allowed={wh.get('allowed_updates')}")
     for u in updates:
         state["offset"] = max(state["offset"], u["update_id"] + 1)
         if "message" in u and state["chat_id"] is None:
