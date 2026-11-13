@@ -58,7 +58,68 @@
    "nee"
   ]
  },
- "polls": {},
+ "polls": {
+  "6035011285236581894": {
+   "word": "nee",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581895": {
+   "word": "ja",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581896": {
+   "word": "sorry",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581897": {
+   "word": "dank je wel",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581898": {
+   "word": "goedenavond",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581899": {
+   "word": "tot ziens",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581900": {
+   "word": "doei",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581901": {
+   "word": "alsjeblieft",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581902": {
+   "word": "hallo",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  },
+  "6035011285236581903": {
+   "word": "goedemorgen",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-13"
+  }
+ },
  "missed": [],
  "streak": {
   "last": "",
