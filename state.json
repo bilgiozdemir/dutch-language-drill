@@ -1,0 +1,15 @@
+{
+ "chat_id": null,
+ "offset": 0,
+ "cards": {},
+ "today": {
+  "date": "",
+  "ids": []
+ },
+ "polls": {},
+ "missed": [],
+ "streak": {
+  "last": "",
+  "days": 0
+ }
+}
