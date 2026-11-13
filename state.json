@@ -1,10 +1,62 @@
 {
- "chat_id": null,
- "offset": 0,
- "cards": {},
+ "chat_id": 913284983,
+ "offset": 310429652,
+ "cards": {
+  "hallo": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "goedemorgen": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "goedenavond": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "doei": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "tot ziens": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "dank je wel": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "alsjeblieft": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "sorry": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "ja": {
+   "box": 0,
+   "due": "2026-11-13"
+  },
+  "nee": {
+   "box": 0,
+   "due": "2026-11-13"
+  }
+ },
  "today": {
-  "date": "",
-  "ids": []
+  "date": "2026-11-13",
+  "ids": [
+   "hallo",
+   "goedemorgen",
+   "goedenavond",
+   "doei",
+   "tot ziens",
+   "dank je wel",
+   "alsjeblieft",
+   "sorry",
+   "ja",
+   "nee"
+  ]
  },
  "polls": {},
  "missed": [],
