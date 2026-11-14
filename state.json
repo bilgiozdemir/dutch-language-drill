@@ -1,128 +1,107 @@
 {
  "chat_id": 913284983,
- "offset": 310429652,
+ "offset": 310429662,
  "cards": {
   "hallo": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "goedemorgen": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "goedenavond": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "doei": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "tot ziens": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "dank je wel": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "alsjeblieft": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "sorry": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "ja": {
-   "box": 0,
-   "due": "2026-11-13"
+   "box": 1,
+   "due": "2026-11-15"
   },
   "nee": {
+   "box": 1,
+   "due": "2026-11-15"
+  },
+  "Hoe gaat het?": {
    "box": 0,
-   "due": "2026-11-13"
+   "due": "2026-11-14"
+  },
+  "Het gaat goed": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Ik heet ...": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Ik kom uit ...": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Ik woon in Amsterdam": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Ik begrijp het niet": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Spreek je Engels?": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Ik spreek een beetje Nederlands": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Wat betekent dat?": {
+   "box": 0,
+   "due": "2026-11-14"
+  },
+  "Kun je dat herhalen?": {
+   "box": 0,
+   "due": "2026-11-14"
   }
  },
  "today": {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "ids": [
-   "hallo",
-   "goedemorgen",
-   "goedenavond",
-   "doei",
-   "tot ziens",
-   "dank je wel",
-   "alsjeblieft",
-   "sorry",
-   "ja",
-   "nee"
+   "Hoe gaat het?",
+   "Het gaat goed",
+   "Ik heet ...",
+   "Ik kom uit ...",
+   "Ik woon in Amsterdam",
+   "Ik begrijp het niet",
+   "Spreek je Engels?",
+   "Ik spreek een beetje Nederlands",
+   "Wat betekent dat?",
+   "Kun je dat herhalen?"
   ]
  },
- "polls": {
-  "6035011285236581894": {
-   "word": "nee",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581895": {
-   "word": "ja",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581896": {
-   "word": "sorry",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581897": {
-   "word": "dank je wel",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581898": {
-   "word": "goedenavond",
-   "correct": 2,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581899": {
-   "word": "tot ziens",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581900": {
-   "word": "doei",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581901": {
-   "word": "alsjeblieft",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581902": {
-   "word": "hallo",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  },
-  "6035011285236581903": {
-   "word": "goedemorgen",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-13"
-  }
- },
+ "polls": {},
  "missed": [],
  "streak": {
-  "last": "",
-  "days": 0
+  "last": "2026-11-14",
+  "days": 1
  }
 }
