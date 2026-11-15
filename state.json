@@ -1,6 +1,6 @@
 {
  "chat_id": 913284983,
- "offset": 310429662,
+ "offset": 310429672,
  "cards": {
   "hallo": {
    "box": 1,
@@ -43,44 +43,44 @@
    "due": "2026-11-15"
   },
   "Hoe gaat het?": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Het gaat goed": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Ik heet ...": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Ik kom uit ...": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Ik woon in Amsterdam": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Ik begrijp het niet": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Spreek je Engels?": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Ik spreek een beetje Nederlands": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Wat betekent dat?": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   },
   "Kun je dat herhalen?": {
-   "box": 0,
-   "due": "2026-11-14"
+   "box": 1,
+   "due": "2026-11-16"
   }
  },
  "today": {
@@ -98,71 +98,10 @@
    "Kun je dat herhalen?"
   ]
  },
- "polls": {
-  "6037263085050267243": {
-   "word": "Hoe gaat het?",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267244": {
-   "word": "Ik spreek een beetje Nederlands",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267245": {
-   "word": "Het gaat goed",
-   "correct": 3,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267246": {
-   "word": "Ik begrijp het niet",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267247": {
-   "word": "Kun je dat herhalen?",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267248": {
-   "word": "Ik woon in Amsterdam",
-   "correct": 3,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267249": {
-   "word": "Wat betekent dat?",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267250": {
-   "word": "Ik kom uit ...",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267251": {
-   "word": "Spreek je Engels?",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  },
-  "6037263085050267252": {
-   "word": "Ik heet ...",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-14"
-  }
- },
+ "polls": {},
  "missed": [],
  "streak": {
-  "last": "2026-11-14",
-  "days": 1
+  "last": "2026-11-15",
+  "days": 2
  }
 }
