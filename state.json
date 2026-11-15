@@ -98,7 +98,68 @@
    "Kun je dat herhalen?"
   ]
  },
- "polls": {},
+ "polls": {
+  "6039736582485837448": {
+   "word": "Ik kom uit ...",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837449": {
+   "word": "Spreek je Engels?",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837450": {
+   "word": "Wat betekent dat?",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837451": {
+   "word": "Kun je dat herhalen?",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837452": {
+   "word": "Ik spreek een beetje Nederlands",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837453": {
+   "word": "Het gaat goed",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837454": {
+   "word": "Ik woon in Amsterdam",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837455": {
+   "word": "Hoe gaat het?",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837456": {
+   "word": "Ik begrijp het niet",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  },
+  "6039736582485837457": {
+   "word": "Ik heet ...",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-15"
+  }
+ },
  "missed": [],
  "streak": {
   "last": "2026-11-15",
