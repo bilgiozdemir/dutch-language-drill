@@ -84,18 +84,18 @@
   }
  },
  "today": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "ids": [
-   "Hoe gaat het?",
-   "Het gaat goed",
-   "Ik heet ...",
-   "Ik kom uit ...",
-   "Ik woon in Amsterdam",
-   "Ik begrijp het niet",
-   "Spreek je Engels?",
-   "Ik spreek een beetje Nederlands",
-   "Wat betekent dat?",
-   "Kun je dat herhalen?"
+   "hallo",
+   "goedemorgen",
+   "goedenavond",
+   "doei",
+   "tot ziens",
+   "dank je wel",
+   "alsjeblieft",
+   "sorry",
+   "ja",
+   "nee"
   ]
  },
  "polls": {
