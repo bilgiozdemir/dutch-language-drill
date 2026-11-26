@@ -84,7 +84,7 @@
   }
  },
  "today": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "ids": [
    "hallo",
    "goedemorgen",
@@ -99,66 +99,6 @@
   ]
  },
  "polls": {
-  "6044120189316892549": {
-   "word": "tot ziens",
-   "correct": 3,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892550": {
-   "word": "goedemorgen",
-   "correct": 0,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892551": {
-   "word": "dank je wel",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892552": {
-   "word": "goedenavond",
-   "correct": 2,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892553": {
-   "word": "ja",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892554": {
-   "word": "alsjeblieft",
-   "correct": 1,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892555": {
-   "word": "doei",
-   "correct": 3,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892556": {
-   "word": "hallo",
-   "correct": 2,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892557": {
-   "word": "sorry",
-   "correct": 2,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
-  "6044120189316892558": {
-   "word": "nee",
-   "correct": 2,
-   "kind": "daily",
-   "sent": "2026-11-17"
-  },
   "6046248113683826196": {
    "word": "dank je wel",
    "correct": 2,
@@ -638,6 +578,66 @@
    "correct": 2,
    "kind": "daily",
    "sent": "2026-11-25"
+  },
+  "5783020361364802575": {
+   "word": "sorry",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802576": {
+   "word": "dank je wel",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802577": {
+   "word": "nee",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802578": {
+   "word": "ja",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802579": {
+   "word": "hallo",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802580": {
+   "word": "goedemorgen",
+   "correct": 2,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802581": {
+   "word": "tot ziens",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802582": {
+   "word": "doei",
+   "correct": 0,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802583": {
+   "word": "alsjeblieft",
+   "correct": 1,
+   "kind": "daily",
+   "sent": "2026-11-26"
+  },
+  "5783020361364802584": {
+   "word": "goedenavond",
+   "correct": 3,
+   "kind": "daily",
+   "sent": "2026-11-26"
   }
  },
  "missed": [],
